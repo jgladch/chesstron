@@ -1,13 +1,13 @@
 {
   "name": "chesstron",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Stockfish-powered Node Chess CLI Tool",
   "main": "index.js",
   "bin": {
     "chesstron": "index.js"
   },
   "scripts": {
-    "postinstall": "npm link babel-cli && npm link chesstron"
+    "postinstall": "npm link --local babel-cli && npm link --local chesstron"
   },
   "author": "Jeff Gladchun <jeffgladchun@gmail.com>",
   "license": "ISC",
