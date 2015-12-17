@@ -7,7 +7,7 @@
     "chesstron": "index.js"
   },
   "scripts": {
-    "postinstall": "npm install -g babel babel-cli && npm link babel-cli"
+    "postinstall": "npm link babel-cli && npm link chesstron"
   },
   "author": "Jeff Gladchun <jeffgladchun@gmail.com>",
   "license": "ISC",
@@ -20,6 +20,6 @@
     "inquirer": "^0.11.0",
     "lodash": "^3.10.1",
     "progress": "^1.1.8",
-    "stockfish": "^6.0.5"
+    "stockfish": "^6.0.5",
   }
 }
