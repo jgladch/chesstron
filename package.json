@@ -1,6 +1,6 @@
 {
   "name": "chesstron",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Stockfish-powered Node Chess CLI Tool",
   "main": "index.js",
   "bin": {
