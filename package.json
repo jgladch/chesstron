@@ -6,6 +6,9 @@
   "bin": {
     "chesstron": "index.js"
   },
+  "scripts": {
+    "postinstall": "npm install -g babel babel-cli && npm link babel-cli"
+  },
   "author": "Jeff Gladchun <jeffgladchun@gmail.com>",
   "license": "ISC",
   "dependencies": {
