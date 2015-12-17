@@ -5,4 +5,4 @@
 
 `npm install`
 
-`npm start`
+`chesstron`
