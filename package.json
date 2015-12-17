@@ -1,10 +1,10 @@
 {
-  "name": "cli",
+  "name": "chesstron",
   "version": "1.0.0",
-  "description": "",
+  "description": "Stockfish-powered Node Chess CLI Tool",
   "main": "index.js",
-  "scripts": {
-    "start": "./node_modules/.bin/babel-node index.js"
+  "bin": {
+    "chesstron": "index.js"
   },
   "author": "Jeff Gladchun <jeffgladchun@gmail.com>",
   "license": "ISC",
