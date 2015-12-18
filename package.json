@@ -1,18 +1,15 @@
 {
   "name": "chesstron",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Stockfish-powered Node Chess CLI Tool",
   "main": "index.js",
   "bin": {
     "chesstron": "index.js"
   },
-  "scripts": {
-    "postinstall": "npm link --local babel-cli && npm link --local chesstron"
-  },
   "author": "Jeff Gladchun <jeffgladchun@gmail.com>",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/jgladch/chesstron.git"
+    "type": "git",
+    "url": "https://github.com/jgladch/chesstron.git"
   },
   "license": "ISC",
   "dependencies": {
@@ -24,8 +21,9 @@
     "figlet": "^1.1.1",
     "inquirer": "^0.11.0",
     "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "node-lichess": "^1.0.1",
     "progress": "^1.1.8",
-    "stockfish": "^6.0.5",
-    "node-lichess": "^1.0.0"
+    "stockfish": "^6.0.5"
   }
 }
