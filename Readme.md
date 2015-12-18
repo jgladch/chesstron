@@ -1,7 +1,7 @@
 # Chesstron
 ### Stockfish powered Node chess engine interface
 
-![Chesstron](http://cdn.c.photoshelter.com/img-get/I00009AJpRu9Jff8/s/900/russia-moscow-chess-robots-ru191697.jpg "Chesstron")
+![Chesstron](http://images.chesscomfiles.com/uploads/images_users/tiny_mce/Senior-Lazarus_Long/phpc5ewNB.png "Chesstron")
 
 #### About
 
