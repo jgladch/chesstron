@@ -1,4 +1,4 @@
-#! /usr/bin/env babel-node
+#! /usr/bin/env node
 
-import Wizard from './lib/wizard';
-const wizard = new Wizard();
+var Wizard = require('./src/wizard');
+var wizard = new Wizard();
