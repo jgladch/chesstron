@@ -7,7 +7,7 @@
     "chesstron": "index.js"
   },
   "scripts": {
-    "postinstall": "npm install -g babel babel-cli babel-core"  
+    "compile": "babel --presets es2015 lib --out-dir src"
   },
   "author": "Jeff Gladchun <jeffgladchun@gmail.com>",
   "repository": {
@@ -26,5 +26,10 @@
     "node-lichess": "^1.0.2",
     "progress": "^1.1.8",
     "stockfish": "^6.0.5"
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.21"
   }
 }
