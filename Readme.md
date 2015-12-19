@@ -1,15 +1,28 @@
-# Chesstron
-### Stockfish powered Node chess engine interface
+# Chesstron - Chess CLI
 
-![Chesstron](http://images.chesscomfiles.com/uploads/images_users/tiny_mce/Senior-Lazarus_Long/phpc5ewNB.png "Chesstron")
+#### Powered by Stockfish and Node.js
+
+![LiChess](http://apkplz.com/storage/images/org/lichess/mobileapp/170/lichess-free-online-chess.png "Lichess")
+
+![GUI](http://i.imgur.com/XqUbtsb.png "GUI")
 
 ### About
 
-Chesstron is a command line tool which gives you convenient access to an [all-javascript](https://github.com/nmrugg/stockfish.js) instance of the [Stockfish](https://stockfishchess.org/) Open Source Chess Engine, [currently the strongest chess engine in the world](https://en.wikipedia.org/wiki/Thoresen_Chess_Engines_Competition).
+Two things about me: I love chess and I love building things with computers. This pet project is a labor of love and an all-javascript proof-of-concept.
+
+Chesstron is a command line tool which gives you convenient access to an [all-javascript](https://github.com/nmrugg/stockfish.js) implementation of the [Stockfish](https://stockfishchess.org/) Open Source Chess Engine, [currently the strongest chess engine in the world](https://en.wikipedia.org/wiki/Thoresen_Chess_Engines_Competition).
 
 The tool provides an easy to use GUI that allow you change positions, make moves, request computer help, and much more.
 
-Chesstron also provides access to [LiChess.org](http://en.lichess.org/) users and games, with much more Lichess functionality coming very soon.
+### Stockfish Engine
+
+You can use the chess engine just like you would any other: set up board positions, get computer recommendations for moves, make moves, evaluate positions, etc. 
+
+![StockfishMode](http://i.imgur.com/p1zMg0K.png "Stockfish")
+
+Chesstron also provides access to [LiChess.org](http://en.lichess.org/) users and games. You can look up any lichess user profile and load their games into the engine for further analysis.
+
+![lichessMode](http://i.imgur.com/F6g9vZH.png "Lichess")
 
 ### How to use
 
