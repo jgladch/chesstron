@@ -2,17 +2,11 @@
 
 #### Powered by Stockfish and Node.js
 
-![LiChess](http://apkplz.com/storage/images/org/lichess/mobileapp/170/lichess-free-online-chess.png "Lichess")
-
-![GUI](http://i.imgur.com/XqUbtsb.png "GUI")
-
 ### About
 
-Two things about me: I love chess and I love building things with computers. This pet project is a labor of love and an all-javascript proof-of-concept.
+Chesstron is a command line tool for analyzing and exploring chess games. It exposes an interface to the [Stockfish](https://stockfishchess.org/) chess engine ([currently the strongest chess engine in the world](https://en.wikipedia.org/wiki/Thoresen_Chess_Engines_Competition)) and allows you to evaluate chess positions, make moves, and get feedback on your play. Additionally, it is integrated with [LiChess.org](http://en.lichess.org/) to provide easy access to any LiChess user's games. You can search for lichess games, import them into the engine and analyze them.
 
-Chesstron is a command line tool which gives you convenient access to an [all-javascript](https://github.com/nmrugg/stockfish.js) implementation of the [Stockfish](https://stockfishchess.org/) Open Source Chess Engine, [currently the strongest chess engine in the world](https://en.wikipedia.org/wiki/Thoresen_Chess_Engines_Competition).
-
-The tool provides an easy to use GUI that allow you change positions, make moves, request computer help, and much more.
+Yes, many (if not all) of the features provided by this tool are currently available on LiChess, this tool was created as a labor of love and to provide an [all-javascript](https://github.com/nmrugg/stockfish.js) proof-of-concept implementation of the Stockfish engine.
 
 ### Stockfish Engine
 
@@ -42,4 +36,4 @@ Chesstron also provides access to [LiChess.org](http://en.lichess.org/) users an
 
 ### Contributing
 
-Pull requests will be accepted
+Pull requests will be accepted - there is a lot more we can do with this tool!
